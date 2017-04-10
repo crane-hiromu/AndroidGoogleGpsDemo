@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LinearLayout -->
+    <style name="AppTheme.LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.LinearLayout.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AppTheme.LinearLayout.Vertical.Fill">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AppTheme.LinearLayout.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AppTheme.LinearLayout.Horizontal.Fill">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- FrameLayout -->
+    <style name="AppTheme.FrameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.FrameLayout.Fill">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- RelativeLayout -->
+    <style name="AppTheme.RelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.RelativeLayout.Fill">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

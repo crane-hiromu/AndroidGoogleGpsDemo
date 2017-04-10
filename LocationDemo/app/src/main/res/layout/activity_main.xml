@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/AppTheme.LinearLayout.Vertical"
+    android:padding="20dp"
+    tools:context="com.example.hiromuturuta.locationdemo.MainActivity">
+
+    <LinearLayout
+        style="@style/AppTheme.LinearLayout.Horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/AppTheme.TextView"
+            android:text="緯度" />
+
+        <TextView
+            android:id="@+id/activity_main_latitude_text"
+            style="@style/AppTheme.TextView"
+            android:layout_marginLeft="5dp"
+            tools:text="35.658775" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.LinearLayout.Horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/AppTheme.TextView"
+            android:text="軽度" />
+
+        <TextView
+            android:id="@+id/activity_main_longitude_text"
+            style="@style/AppTheme.TextView"
+            android:layout_marginLeft="5dp"
+            tools:text="139.705223" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.LinearLayout.Horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/AppTheme.TextView"
+            android:text="距離" />
+
+        <TextView
+            android:id="@+id/activity_main_radius_text"
+            style="@style/AppTheme.TextView"
+            android:layout_marginLeft="5dp"
+            tools:text="30" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_main_get_location_button"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get location" />
+
+</LinearLayout>
